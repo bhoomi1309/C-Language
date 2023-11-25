@@ -2,7 +2,7 @@
 void main(){
 	printf("Color: RGB -> CMYK");
 	float red,green,blue;
-	float aa,bb,cc,w;
+	float aa,bb,cc,w=0;
 	printf("\nEnter color in RGB format: ");
 	printf("\n[Integer scale from 0 to 255]");
 	printf("\n\tRed(R): ");
