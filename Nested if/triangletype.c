@@ -18,7 +18,7 @@ void main(){
 	else if( (a*a+b*b==c*c) || (c*c+b*b==a*a) || (a*a+c*c==b*b) ){
 		printf("Right-angled Triangle");
 	}
-	else if((a!=b) && (b!=c)){
+	else if((a!=b) && (a!=c) && (b!=c)){
 		printf("Scalene Triangle");
 	}
 }
