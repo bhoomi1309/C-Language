@@ -2,8 +2,6 @@
 int main(){
 	printf("Calculations");
 	int a,b,c;
-	//char mutable;
-	mutable='kk';
 	printf("\nEnter any value: ");
 	scanf("%d",&a);
 	printf("Enter a number as per the operation\n\tAddition(1)\n\tSubtraction(2)\n\tMultiplication(3)\n\tDivision(4)        : ");
