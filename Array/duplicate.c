@@ -9,6 +9,10 @@ void main(){
 		printf("Enter Number(%d): ",i+1);
 		scanf("%d",&arr[i]);
 	}
+	printf("Array: ");
+	for(i=0;i<n;i++){
+		printf("%d ",arr[i]);
+	}
 	for(i=0;i<n;i++){
 		for(j=i+1;j<n;j++){
 			if(arr[i]>arr[j]){
@@ -19,6 +23,7 @@ void main(){
 		}
 	}
 	int count=0,k=0,total=0;
+	printf("\n");
 	while(k<n){
 		if(arr[k]==arr[k+1]){
 			count++;
