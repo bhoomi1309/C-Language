@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main(){
-	printf("No. of Duplicate Elements");
+	printf("Array without Duplicate Elements");
 	int n,i,temp;
 	printf("\nEnter no. of Elements: ");
 	scanf("%d",&n);
