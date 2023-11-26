@@ -23,10 +23,9 @@ void main(){
 		}
 	}
 	printf("\nArray without Duplicate Elements: ");
-	printf("%d ",arr[0]);
-	for(j=1;j<n;j++){
-		if(arr[j]!=arr[j-1]){
-			printf("%d ",arr[j]);
+	for(i=0;i<n;i++){
+		if(arr[i]!=arr[i+1]){
+			printf("%d ",arr[i]);
 		}
 	}
 }
