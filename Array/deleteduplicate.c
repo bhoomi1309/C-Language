@@ -26,7 +26,6 @@ void main(){
 	printf("%d ",arr[0]);
 	for(j=1;j<n;j++){
 		if(arr[j]!=arr[j-1]){
-			arr[i++]=arr[j];
 			printf("%d ",arr[j]);
 		}
 	}
